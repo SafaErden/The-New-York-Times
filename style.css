@@ -1,0 +1,15 @@
+header {
+    padding: 30px;
+    background-color: teal;
+}
+
+main {
+    padding: 30px;
+    background-color: gold;
+}
+
+footer {
+    padding: 30px;
+    background-color: lawngreen;
+}
+

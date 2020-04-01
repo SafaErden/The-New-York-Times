@@ -25,7 +25,7 @@ footer {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 1605px;
+    max-width: 1605px;
 }
 .logo{
     width:184px;

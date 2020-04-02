@@ -1,90 +1,127 @@
+/* GENERAL STYLE RULE START */
+
+/* GENERAL STYLE RULE END */
+
+/* HEADER STYLE RULE START */
+
 header {
-    background-color: rgb(255,255,255);
-    border-bottom: 1px solid #e2e2e2;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid #e2e2e2;
 }
+
+.header1 {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header2 {
+  width: 100%;
+  display: none;
+  position: fixed;
+  top: 0;
+}
+
+.header-wrapper {
+  padding: 10px 15px 10px 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1605px;
+}
+
+.header-title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.header-info {
+  color: #333;
+  font-family: nyt-cheltenham-small, georgia, "Times New Roman", sans-serif,;
+  font-weight: 400;
+  font-size: 13px;
+  -webkit-letter-spacing: 0.015em;
+  -moz-letter-spacing: 0.015em;
+  -ms-letter-spacing: 0.015em;
+  letter-spacing: 0.015em;
+  margin-top: 10.5px;
+  margin-right: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.logo {
+  width: 184px;
+}
+
+.header-list li {
+  display: inline;
+  padding: 0;
+  margin: 10px;
+}
+
+.header-list li i {
+  width: 16px;
+  height: 16px;
+}
+
+.header-list li strong {
+  font-size: 14px;
+}
+
+.header-list li button {
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.social-icon {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.social-icon:hover {
+  background-color: #fff;
+  border: 1px #eee solid;
+}
+
+/* MAIN STYLE RULE START */
 
 main {
-    padding: 30px;
-    background-color: gold;
+  padding-top: 20px;
+  background-color: goldenrod;
 }
+
+/* MAIN STYLE RULE END */
+
+/* FOOTER STYLE RULE START */
 
 footer {
-    padding: 30px;
-    background-color: lawngreen;
+  padding: 30px;
+  background-color: lawngreen;
 }
 
-.header1{
-    width:100%;
-    position:fixed;
-    top:0;
-}
-.header2{
-    width:100%;
-    display:none;
-    position:fixed;
-    top:0;
-}
-.header-wrapper{
-    padding: 10px 15px 10px 15px;
-    margin:0 auto;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1605px;
-}
-.header-title{
-    font-size:11px;
-    font-weight: bold;
-}
-.header-info{
-    color: #333;
-    font-family: nyt-cheltenham-small,georgia,'times new roman';
-    font-weight: 400;
-    font-size: 13px;
-    -webkit-letter-spacing: 0.015em;
-    -moz-letter-spacing: 0.015em;
-    -ms-letter-spacing: 0.015em;
-    letter-spacing: 0.015em;
-    margin-top: 10.5px;
-    margin-right: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.logo{
-    width:184px;
-}
-.header-list li{
-    display:inline;
-    padding:0;
-    margin:10px;
-}
-.header-list li i{
-    width:16px;
-    height:16px;
-}
-.header-list li strong{
-    font-size:14px;
-}
-.header-list li button{    
-    padding: 11px 12px 8px;
-    border-radius: 3px;
-    cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
-    -webkit-transition: ease 0.6s;
-    transition: ease 0.6s;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-color: #567b95;
-    border: 1px solid #326891;
-    color: #fff;
-    font-size: 11px;
-    line-height: 11px;
-    font-weight: 700;
-    -webkit-letter-spacing: 0.05em;
-    -moz-letter-spacing: 0.05em;
-    -ms-letter-spacing: 0.05em;
-    letter-spacing: 0.05em;
-    padding: 11px 12px 8px;
-    text-transform: uppercase;
-}
+/* FOOTER STYLE RULE END */

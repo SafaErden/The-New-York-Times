@@ -173,12 +173,41 @@ main {
 }
 
 /* MAIN STYLE RULE END */
+
+header h1 {
+  color: #121212;
+  font-family: "nyt cheltenham", georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  margin: 0 374.5px 16px;
+}
+
+.photo-area {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+figcaption {
+  padding: 10px 20px 0px 0px;
+}
+
+#figcap1 {
+  font-size: 15px;
+  color: #666;
+  padding-right: 7px;
+}
+
+#figcap2 {
+  font-size: 13px;
+  color: #888;
+}
+
 .grif-left1 {
   display: grid;
   grid-gap:20px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  
+  grid-template-rows: repeat(2, 1fr); 
 }
 .grif-left2 {
   display: grid;

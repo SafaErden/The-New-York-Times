@@ -38,7 +38,7 @@ header {
 
 .header-info {
   color: #333;
-  font-family: nyt-cheltenham-small, georgia, "Times New Roman", sans-serif,;
+  font-family: nyt-cheltenham-small, georgia, "Times New Roman", sans-serif;
   font-weight: 400;
   font-size: 13px;
   -webkit-letter-spacing: 0.015em;
@@ -61,14 +61,18 @@ header {
   padding: 0;
   margin: 10px;
 }
-
+.header-list li a{
+    text-decoration: none;
+    color:#333;
+  }
 .header-list li i {
   width: 16px;
   height: 16px;
 }
 
 .header-list li strong {
-  font-size: 14px;
+  font-size: 14.25px;
+  letter-spacing: 0.7px;
 }
 
 .header-list li button {
@@ -95,8 +99,6 @@ header {
 
 .social-icon {
   display: inline-block;
-  height: 15px;
-  width: 15px;
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
@@ -120,8 +122,99 @@ main {
 /* FOOTER STYLE RULE START */
 
 footer {
-  padding: 30px;
-  background-color: lawngreen;
+  margin: 0;
+  padding: 0;
+}
+.footer-expand-wrapper {
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-expand {
+  position: relative;
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footer-toggle {
+  position: absolute;
+  right: 0;
+  font-weight: 700;
+  font-size: 12px;
+  color: #111111;
+}
+.footer-toggle i {
+  padding-left: 25px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
+.lg {
+  grid-area: lg;
+}
+
+.gh {
+  grid-area: gh;
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+  text-align: right;
+}
+.m1 {
+  grid-area: m1;
+}
+.m2 {
+  grid-area: m1;
+}
+.m3 {
+  grid-area: m1;
+}
+.m4 {
+  grid-area: m1;
+}
+.m5 {
+  grid-area: m1;
+}
+
+.m6 {
+  grid-area: m1;
+}
+.ft {
+  grid-area: ft;
+}
+.footer-grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "lg . . . . gh"
+    "m1 m2 m3 m4 m5 m6"
+    "ft ft ft ft ft ft";
+}
+.footer-grid-border {
+  margin: 10px auto;
+  max-width: 1200px;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
+  width: 100%;
+}
 /* FOOTER STYLE RULE END */

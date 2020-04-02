@@ -176,7 +176,7 @@ main {
 
 header h1 {
   color: #121212;
-  font-family: "nyt cheltenham", georgia,'times new roman',times,serif;
+  font-family: "nyt cheltenham", georgia, "times new roman", times, serif;
   font-weight: 700;
   font-style: italic;
   font-size: 40px;
@@ -203,43 +203,6 @@ figcaption {
   color: #888;
 }
 
-.grif-left1 {
-  display: grid;
-  grid-gap:20px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr); 
-}
-.grif-left2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-}
-.grid-left-item {
-    display: flex;
-    flex-direction: column;
-  }
-  .grid-left-item a{
-    text-decoration: none;
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 18px;
-  }
-.grid-left-item .span1 {
-  align-self: flex-end;
-  color: rgb(153, 153, 153);
-  font-size: 0.6em;
-  line-height: 1.23em;
-  margin: 3px 0px 0px;
-}
-
-.grid-left-item .span2 {
-    letter-spacing: 0.3px;
-    color: rgb(153, 153, 153);
-    font-size: 12px;
-}
-.extra-info-img{
-    max-width:150px;
-}
 .extra-info-grid {
   display: grid;
   margin: 0 auto;
@@ -254,7 +217,48 @@ figcaption {
   font-weight: 700;
   color: #333;
   padding: 20px 0px 20px 0px;
+  margin-top: 20px;
 }
+.grif-left1 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.grif-left2 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+.grid-left-item {
+  display: flex;
+  flex-direction: column;
+}
+.grid-left-item a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.grid-left-item .span1 {
+  align-self: flex-end;
+  color: rgb(153, 153, 153);
+  font-size: 0.6em;
+  line-height: 1.23em;
+  margin: 3px 0px 0px;
+}
+
+.grid-left-item .span2 {
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+}
+.extra-info-img {
+  width: 100%;
+}
+
 .extra-right ul li {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 15px 0px;
@@ -267,6 +271,7 @@ figcaption {
   font-weight: 500;
   line-height: 1.375rem;
 }
+
 /* FOOTER STYLE RULE START */
 footer {
   margin: 0;

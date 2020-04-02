@@ -1,7 +1,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         document.getElementById("header1").style.display = "none";
         document.getElementById("header2").style.display = "block";
     } else {

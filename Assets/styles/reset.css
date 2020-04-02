@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
   vertical-align: baseline;
 }
 

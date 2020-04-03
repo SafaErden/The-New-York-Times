@@ -3,7 +3,9 @@
 /* GENERAL STYLE RULE END */
 
 /* HEADER STYLE RULE START */
-
+.hidden-content{
+  display:none;
+}
 header {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #e2e2e2;
@@ -152,7 +154,7 @@ header {
   left: 500px;
 }
 
-#right-top {
+.right-top {
   display: block;
   border-radius: 2px;
   padding: 6px;
@@ -163,18 +165,41 @@ header {
   margin-bottom: 5px;
 }
 
+.inner-advert{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+.inner-advert ul {
+  margin: 15px 0;
+}
+.inner-advert ul li{
+  line-height: 1.5;
+  font-weight: 700;
+  font-size:14px;
+  color: rgb(0, 0, 0);
+}
+.inner-advert ul li a{
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+.inner-advert-seperator{
+  border-top: 1px solid #aaa;
+  width:75px;
+  margin:0 auto;
+}
 .btn {
   padding: 7px 8.4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.26);
 }
 
-#btn1 {
+.btn1 {
   font-size: 14px;
   color: white;
   background-color: rgb(66, 133, 245);
 }
 
-#btn2 {
+.btn2 {
   background-color: white;
   color: #9e9ea6;
   font-size: 14px;
@@ -187,7 +212,9 @@ header {
 main {
   padding-top: 50px;
 }
-
+.top-wrapper-heading{
+  border-bottom:none !important;
+}
 header h1 {
   color: #121212;
   font-family: "nyt cheltenham", georgia, "times new roman", times, serif;
@@ -248,7 +275,7 @@ figcaption {
 }
 
 #header-end-top p a:hover {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .extra-right ul li {
@@ -290,13 +317,12 @@ text-decoration: none;
   line-height: 1.875rem;
 }
 
-aside {
-  display: grid;
-}
-
 .story-body aside {
   width: 210px;
   margin-left: 90px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #aside-heading {
@@ -311,8 +337,24 @@ aside {
 .editor-pick {
   display: grid;
   grid-template-columns: 75px 1fr;
-  grid-area: 10px;
   grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.editor-pick span {
+  padding-top: 15px;
+}
+
+.editor-pick span a {
+  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-size: 13px;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+  text-decoration:none;
+}
+
+.editor-pick span a:hover {
+  text-decoration:underline;
 }
 
 .aside-img {
@@ -350,6 +392,22 @@ aside {
 #video-tag-bottom {
   color: #888;
   font-size: 13px;
+}
+
+.video-tag-top1 {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 0.94rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+}
+
+.video-tag-top2 {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  color: #888;
+  font-size: 12.5px;
+  line-height: 1.25rem;
+  margin-right: 7px;
 }
 
 #img-tag {

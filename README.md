@@ -52,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@githubhandle](https://github.com/vanheaven-ui)
 - Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Linkedin: [linkedin](https://www.linkedin.com/in/vanheaven/)
 
 ## 🤝 Contributing
 

@@ -2,11 +2,10 @@
 
 > This project is a clone of New York Times article page. 
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./Assets/images/readme.gif)
 
 It makes use of float, flex and grid CSS display positioning styles. This was completed as part of the Microverse remote software developement curriculum using the pair programming approach.
+
 ## Built With
 
 - HTML,
@@ -15,29 +14,24 @@ It makes use of float, flex and grid CSS display positioning styles. This was co
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+[Live Demo Link](https://safaerden.github.io/The-New-York-Times/)
 
 ### Prerequisites
 
+-Any kind of browser suooprting CSS3 and HTML5
+
 ### Setup
+
+-Fork the repo to your remote repository.
+-Clone or download the repository to your local machine.
 
 ### Install
 
+-No istallation needed.
+
 ### Usage
 
-### Run tests
-
-### Deployment
-
+-Visit the live demo link on your web browser.
 
 
 ## Authors
@@ -58,7 +52,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/SafaErden/The-New-York-Times/issues).
 
 ## Show your support
 
@@ -66,10 +60,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- TheOdinProject.com PROJECT: POSITIONING AND FLOATING ELEMENTS
 
-## 📝 License
-
-This project is [MIT](lic.url) licensed.

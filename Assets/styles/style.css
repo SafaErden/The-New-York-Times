@@ -299,6 +299,56 @@ figcaption {
 
 /* MAIN STYLE RULE END */
 
+/*gridimg*/
+.img-wrapper{
+  width:100%;
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+}
+
+/**/
+.article-bottom{
+  width:100%;
+  margin-bottom:50px;
+}
+.article-bottom-top{
+  width:600px;
+  margin:20px auto;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.article-bottom-top a{ 
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+.article-bottom-top a:hover{ 
+  text-decoration: none;
+}
+.article-bottom-icons{
+  width:600px;
+  margin:20px auto;
+}
+.article-button-left{
+  float: left;
+}
+.article-button-right{
+  float:right;
+}
+.clearfix{
+  clear:both;
+}
+.bottom-button li{
+  margin-left:0;
+}
+.bottom-button li button{
+  padding:12px 85px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
 /* FOOTER STYLE RULE START */
 footer {
   margin: 0;

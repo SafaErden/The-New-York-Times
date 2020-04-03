@@ -71,6 +71,12 @@ header {
   text-decoration: underline;
 }
 
+.footer-toggle i {
+  padding-left: 25px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .header-list li a {
   text-decoration: none;
   color: #333;
@@ -106,6 +112,14 @@ header {
   -ms-letter-spacing: 0.05em;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.editor-pick span a {
+  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+  text-decoration: none;
 }
 
 .inner-advert ul li a {
@@ -202,11 +216,7 @@ header {
   color: rgb(0, 0, 0);
 }
 
-.editor-pick span a {
-  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
-  font-size: 13px;
-  line-height: 17px;
-  color: rgb(51, 51, 51);
+.article-bottom-top a:hover {
   text-decoration: none;
 }
 
@@ -496,7 +506,11 @@ figcaption {
   font-size: 12px;
 }
 
-/* MAIN STYLE RULE END */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
 .img-grid-container {
   width: 100%;
   margin: 30px 0;
@@ -580,10 +594,6 @@ figcaption {
   color: rgb(102, 102, 102);
 }
 
-.article-bottom-top a:hover {
-  text-decoration: none;
-}
-
 .article-bottom-icons {
   width: 600px;
   margin: 20px auto;
@@ -601,7 +611,7 @@ figcaption {
   clear: both;
 }
 
-.bottom-button li {
+.bottom-button-li {
   margin-left: 0;
 }
 
@@ -610,11 +620,6 @@ figcaption {
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.05em;
-}
-
-footer {
-  margin: 0;
-  padding: 0;
 }
 
 .footer-expand-wrapper {
@@ -645,12 +650,6 @@ footer {
   font-weight: 700;
   font-size: 12px;
   color: #111;
-}
-
-.footer-toggle i {
-  padding-left: 25px;
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .lg {
@@ -704,7 +703,7 @@ footer {
   width: 150px;
 }
 
-.grid-link ul li a {
+.grid-li-a {
   color: #333;
   text-transform: capitalize;
   font-size: 13px;
@@ -725,7 +724,10 @@ footer {
   margin-top: 15px;
 }
 
-.grid-additional-links li a {
+.mini-links {
+  color: #333;
+  text-transform: capitalize;
+  text-decoration: none;
   font-size: 11px !important;
   font-weight: 500 !important;
   height: 23px !important;
@@ -755,12 +757,12 @@ footer {
   padding-top: 10px;
 }
 
-.ft ul li {
+.ft-li {
   padding: 20px 5px;
   display: inline;
 }
 
-.ft ul li a {
+.ft-li-a {
   text-decoration: none;
   color: #666;
   font-size: 11px;

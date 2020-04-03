@@ -1,15 +1,17 @@
 # New York Times Article Page Replica
 
-> Our project is a clone of NY Times article page.
+> This project is a clone of New York Times article page. 
 
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
+It makes use of float, flex and grid CSS display positioning styles. This was completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 ## Built With
 
 - HTML,
-- CSS
+- CSS,
+- javascript
 
 ## Live Demo
 
@@ -46,10 +48,10 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/safaerden)
 - Linkedin: [linkedin](https://www.linkedin.com/in/safaerden/)
 
-👤 **Author2**
+👤 **Mworekwa Ezekiel**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Github: [@githubhandle](https://github.com/vanheaven-ui)
+- Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing

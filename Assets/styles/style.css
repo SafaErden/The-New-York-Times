@@ -260,9 +260,33 @@ figcaption {
   margin-left: 300px;
 }
 
+aside {
+  display: grid;
+}
+
 .story-body aside {
   width: 210px;
   margin-left: 90px;
+}
+
+#aside-heading {
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.editor-pick {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-area: 10px;
+  grid-gap: 10px;
+}
+
+.aside-img {
+  width: 75px;
 }
 
 .extra-info-grid {

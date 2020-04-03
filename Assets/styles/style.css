@@ -228,6 +228,44 @@ figcaption {
   height: 70px;
 }
 
+#header-end-top {
+  font-weight: 700;
+  color: #333;
+  font-size: 15px;
+}
+
+#header-end-bottom-left {
+  float: left;
+  padding-top: 15px;
+}
+
+#header-end-bottom-left li {
+  text-decoration: none;
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+}
+
+.header-end-bottom-right {
+  float: right;
+}
+
+.story-body {
+  width: 1200px;
+  margin: 0 auto 16px;
+  display: flex;
+}
+
+.text {
+  width: 600px;
+  margin-left: 300px;
+}
+
+.story-body aside {
+  width: 210px;
+  margin-left: 90px
+}
+
 .extra-info-grid {
   display: grid;
   margin: 0 auto;

@@ -192,7 +192,6 @@ header h1 {
 .photo-area {
   width: 80vw;
   margin: 25px auto 43px;
-
 }
 
 #main-photo {
@@ -263,7 +262,7 @@ figcaption {
 
 .story-body aside {
   width: 210px;
-  margin-left: 90px
+  margin-left: 90px;
 }
 
 .extra-info-grid {
@@ -337,52 +336,132 @@ figcaption {
 
 /* MAIN STYLE RULE END */
 
-/*gridimg*/
-.img-wrapper{
-  width:100%;
-  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+.img-grid-container {
+  width: 100%;
+  margin:30px 0;
+}
+.img-grid-header h1 {
+  font-size: 20px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color:#000;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+  margin-bottom:5px;
+}
+.img-grid-header {
+  width: 945px;
+  margin:0 auto;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  color: #666;
 }
 
-/**/
-.article-bottom{
-  width:100%;
-  margin-bottom:50px;
+.img-wrapper {
+  /*background-image: url("../images/background.png");*/
 }
-.article-bottom-top{
-  width:600px;
-  margin:20px auto;
+.img-grid {
+  width: 945px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.img-grid-img {
+  background: url("../../Assets/images/background.png");
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+}
+.grid-1 {
+  background-position: 150px 150px;
+}
+.grid-2 {
+  background-position: 150px 150px;
+}
+.grid-3 {
+  background-position: 150px 150px;
+}
+.grid-4 {
+  background-position: 150px 150px;
+}
+.grid-5 {
+  background-position: 150px 150px;
+}
+.grid-6 {
+  background-position: 150px 150px;
+}
+.grid-7 {
+  background-position: 150px 150px;
+}
+.grid-8 {
+  background-position: 150px 150px;
+}
+.img-grid div {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 13.5px;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.2;
+}
+.footer-top-border{
+ width:50px;
+ border-top:1px solid #000;
+ margin:50px 0 20px 0;
+}
+.author-name{
+  font-size: .875rem;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+/**/
+.article-bottom {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.article-bottom-top {
+  width: 600px;
+  margin: 20px auto;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
 }
 
-.article-bottom-top a{ 
+.article-bottom-top a {
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
   text-decoration: underline;
 }
-.article-bottom-top a:hover{ 
+.article-bottom-top a:hover {
   text-decoration: none;
 }
-.article-bottom-icons{
-  width:600px;
-  margin:20px auto;
+.article-bottom-icons {
+  width: 600px;
+  margin: 20px auto;
 }
-.article-button-left{
+.article-button-left {
   float: left;
 }
-.article-button-right{
-  float:right;
+.article-button-right {
+  float: right;
 }
-.clearfix{
-  clear:both;
+.clearfix {
+  clear: both;
 }
-.bottom-button li{
-  margin-left:0;
+.bottom-button li {
+  margin-left: 0;
 }
-.bottom-button li button{
-  padding:12px 85px;
+.bottom-button li button {
+  padding: 12px 85px;
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.05em;

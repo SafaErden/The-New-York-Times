@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SafaErden/The-New-York-Times/356b25aaf1c5320ba8ef782ebb8e8e7b9a565786/index.html)
+[Live Demo Link](https://rawcdn.githack.com/SafaErden/The-New-York-Times/36402d7baa68bf29302f3de1459e4b4c0e7d2fd3/index.html)
 
 ### Prerequisites
 

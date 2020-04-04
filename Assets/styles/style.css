@@ -1,10 +1,127 @@
+.header-info,
+.editor-pick-span-a {
+  font-family: "nyt-cheltenham-small", georgia, "Times New Roman", sans-serif;
+}
+
+header h1 {
+  color: #121212;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 35px;
+  margin: 0 auto 16px;
+  width: 600px;
+  line-height: 3rem;
+}
+
+.grid-left-item-a,
+.extra-right ul li a,
+header h1,
+.video-tag-top1,
+.img-grid-header h1,
+.img-grid-header {
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+}
+
+.video-tag-top2,
+#img-tag {
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+}
+
+.header-list li button,
+.img-grid div,
+.author-name,
+.gh {
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+}
+
+.header-wrapper,
+.advert-bottom,
+#header-end,
+.story-body,
+.story-body aside,
+.grid-left-item,
+.footer-expand-wrapper,
+.footer-expand,
+.ft {
+  display: flex;
+}
+
+.editor-pick,
+.extra-info-grid,
+.grif-left1,
+.grif-left2,
+.img-grid,
+.footer-grid {
+  display: grid;
+}
+
+.inner-advert ul li,
+#aside-heading,
+.img-grid-header h1 {
+  color: #000;
+}
+
+.article-bottom-top-a {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+  text-decoration: underline;
+}
+
+#header-end-top-p-a {
+  color: #333;
+}
+
+.no-decore,
+.grid-left-item-a,
+.header-list-li-a,
+.editor-pick-span-a,
+.inner-advert ul li a,
+.extra-right ul li a,
+.article-bottom-top-a:hover,
+#header-end-top-p-a:hover,
+#header-end-bottom-left-li,
+.gh,
+.grid-li-a,
+.mini-links,
+.ft-li-a {
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-grid,
+.header-wrapper,
+.inner-advert-seperator,
+#main-photo,
+.extra-info-grid,
+.img-grid-header,
+.img-grid,
+.img-grid-container footer {
+  margin: 0 auto;
+}
+
+.header-wrapper,
+.advert-bottom,
+.footer-expand-wrapper,
+.footer-expand,
+.ft {
+  align-items: center;
+}
+
+.advert-bottom,
+.story-body aside,
+.footer-expand-wrapper,
+.footer-expand,
+.ft {
+  justify-content: center;
+}
 
 .hidden-content {
   display: none;
-}
-
-.no-decore{
-  text-decoration: none;
 }
 
 header {
@@ -28,10 +145,7 @@ header {
 
 .header-wrapper {
   padding: 10px 15px 10px 15px;
-  margin: 0 auto;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   max-width: 1605px;
 }
 
@@ -42,7 +156,6 @@ header {
 
 .header-info {
   color: #333;
-  font-family: nyt-cheltenham-small, georgia, "Times New Roman", sans-serif;
   font-weight: 400;
   font-size: 13px;
   -webkit-letter-spacing: 0.015em;
@@ -60,19 +173,10 @@ header {
   width: 184px;
 }
 
-.grid-left-item a {
-  text-decoration: none;
+.grid-left-item-a {
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 18px;
   margin: 10px 0;
-}
-
-.article-bottom-top a {
-  font-size: 0.75rem;
-  line-height: 1rem;
-  color: rgb(102, 102, 102);
-  text-decoration: underline;
 }
 
 .footer-toggle i {
@@ -81,8 +185,7 @@ header {
   font-size: 20px;
 }
 
-.header-list li a {
-  text-decoration: none;
+.header-list-li-a {
   color: #333;
 }
 
@@ -100,7 +203,6 @@ header {
   padding: 11px 12px 8px;
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   -webkit-transition: ease 0.6s;
   transition: ease 0.6s;
   white-space: nowrap;
@@ -118,20 +220,17 @@ header {
   text-transform: uppercase;
 }
 
-.editor-pick span a {
-  font-family: nyt-cheltenham-small, georgia, "times new roman", sans-serif;
+.editor-pick-span-a {
   font-size: 13px;
   line-height: 17px;
   color: rgb(51, 51, 51);
-  text-decoration: none;
 }
 
 .inner-advert ul li a {
-  text-decoration: none;
   color: rgb(50, 104, 145);
 }
 
-.header-list li {
+.header-list-li {
   display: inline;
   padding: 0;
   margin: 10px;
@@ -167,9 +266,6 @@ header {
 
 .advert-bottom {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 90px;
 }
 
@@ -195,9 +291,7 @@ header {
 }
 
 .extra-right ul li a {
-  text-decoration: none;
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.375rem;
@@ -217,21 +311,15 @@ header {
   line-height: 1.5;
   font-weight: 700;
   font-size: 14px;
-  color: rgb(0, 0, 0);
 }
 
-.article-bottom-top a:hover {
-  text-decoration: none;
-}
-
-.editor-pick span a:hover {
+.editor-pick-span-a:hover {
   text-decoration: underline;
 }
 
 .inner-advert-seperator {
   border-top: 1px solid #aaa;
   width: 75px;
-  margin: 0 auto;
 }
 
 .btn {
@@ -259,17 +347,6 @@ main {
   border-bottom: none !important;
 }
 
-header h1 {
-  color: #121212;
-  font-family: "nyt cheltenham", georgia, "times new roman", times, serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size: 35px;
-  margin: 0 auto 16px;
-  width: 600px;
-  line-height: 3rem;
-}
-
 .photo-area {
   width: 1200px;
   margin: 25px auto 43px;
@@ -278,7 +355,6 @@ header h1 {
 #main-photo {
   width: 1200px;
   cursor: pointer;
-  margin: 0 auto;
 }
 
 figcaption {
@@ -302,7 +378,6 @@ figcaption {
   width: 600px;
   color: #121212;
   margin: 0 auto 20px;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 70px;
@@ -312,14 +387,6 @@ figcaption {
   font-weight: 700;
   color: #333;
   font-size: 15px;
-}
-
-#header-end-top p a {
-  color: #333;
-}
-
-#header-end-top p a:hover {
-  text-decoration: none;
 }
 
 .extra-right ul li {
@@ -332,8 +399,7 @@ figcaption {
   padding-top: 15px;
 }
 
-#header-end-bottom-left li {
-  text-decoration: none;
+#header-end-bottom-left-li {
   font-size: 13px;
   color: #333;
   font-weight: 500;
@@ -346,7 +412,6 @@ figcaption {
 .story-body {
   width: 1200px;
   margin: 0 auto 16px;
-  display: flex;
 }
 
 .text {
@@ -364,14 +429,11 @@ figcaption {
 .story-body aside {
   width: 210px;
   margin-left: 90px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 #aside-heading {
   font-size: 14px;
-  color: #000;
   margin-bottom: 15px;
   padding-bottom: 12px;
   font-weight: 700;
@@ -379,7 +441,6 @@ figcaption {
 }
 
 .editor-pick {
-  display: grid;
   grid-template-columns: 75px 1fr;
   grid-gap: 10px;
   margin-bottom: 20px;
@@ -427,7 +488,6 @@ figcaption {
 }
 
 .video-tag-top1 {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 0.94rem;
   line-height: 1.25rem;
   margin-right: 7px;
@@ -435,7 +495,6 @@ figcaption {
 }
 
 .video-tag-top2 {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   color: #888;
   font-size: 12.5px;
   line-height: 1.25rem;
@@ -446,7 +505,6 @@ figcaption {
   padding: 10px 20px 0 0;
   width: 700px;
   line-height: 1.25em;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 #img-tag1 {
@@ -460,8 +518,6 @@ figcaption {
 }
 
 .extra-info-grid {
-  display: grid;
-  margin: 0 auto;
   grid-template-columns: 1fr 350px;
   grid-template-rows: auto;
   max-width: 1200px;
@@ -478,21 +534,18 @@ figcaption {
 }
 
 .grif-left1 {
-  display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
 
 .grif-left2 {
-  display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
 }
 
 .grid-left-item {
-  display: flex;
   flex-direction: column;
 }
 
@@ -510,11 +563,6 @@ figcaption {
   font-size: 12px;
 }
 
-footer {
-  margin: 0;
-  padding: 0;
-}
-
 .img-grid-container {
   width: 100%;
   margin: 30px 0;
@@ -525,21 +573,17 @@ footer {
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  color: #000;
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
   margin-bottom: 5px;
 }
 
 .img-grid-header {
   width: 945px;
-  margin: 0 auto;
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 18px;
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
-  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
   color: #666;
 }
 
@@ -549,8 +593,6 @@ footer {
 
 .img-grid {
   width: 945px;
-  margin: 0 auto;
-  display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -559,7 +601,6 @@ footer {
 }
 
 .img-grid div {
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 13.5px;
   font-weight: 300;
   color: #444;
@@ -568,7 +609,6 @@ footer {
 
 .img-grid-container footer {
   width: 945px;
-  margin: 0 auto;
 }
 
 .footer-top-border {
@@ -582,7 +622,6 @@ footer {
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .article-bottom {
@@ -632,18 +671,12 @@ footer {
   bottom: 0;
   width: 100%;
   border-top: 1px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-expand {
   position: relative;
   width: 1200px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 14px;
   line-height: 17px;
 }
@@ -663,12 +696,10 @@ footer {
 .gh {
   grid-area: gh;
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
   line-height: 11px;
-  text-decoration: none;
   text-align: right;
 }
 
@@ -714,7 +745,6 @@ footer {
   font-weight: 500;
   height: 23px;
   line-height: 23px;
-  text-decoration: none;
 }
 
 .subscribe-strong {
@@ -731,7 +761,6 @@ footer {
 .mini-links {
   color: #333;
   text-transform: capitalize;
-  text-decoration: none;
   font-size: 11px !important;
   font-weight: 500 !important;
   height: 23px !important;
@@ -753,9 +782,6 @@ footer {
 
 .ft {
   grid-area: ft;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
   border-top: 1px solid #e2e2e2;
   padding-top: 10px;
@@ -767,16 +793,13 @@ footer {
 }
 
 .ft-li-a {
-  text-decoration: none;
   color: #666;
   font-size: 11px;
 }
 
 .footer-grid {
-  margin: 0 auto;
   max-width: 1200px;
   margin-bottom: 50px;
-  display: grid;
   grid-gap: 10px;
   grid-template-areas:
     "lg lg lg lg gh gh"

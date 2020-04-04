@@ -45,8 +45,8 @@
 
 - Github: [@githubhandle](https://github.com/vanheaven-ui)
 - Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
-- Linkedin: [linkedin](https://www.linkedin.com/in/vanheaven/)
-- Email: [linkedin](mailto:ebtwino718@yahoo.com)
+- Linkedin: [safa](https://www.linkedin.com/in/vanheaven/)
+- Email: [ezekiel](mailto:ebtwino718@yahoo.com)
 
 ## 🤝 Contributing
 

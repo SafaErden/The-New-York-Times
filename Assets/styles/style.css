@@ -3,6 +3,10 @@
   display: none;
 }
 
+.no-decore{
+  text-decoration: none;
+}
+
 header {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #e2e2e2;

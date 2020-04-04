@@ -1,10 +1,8 @@
 # New York Times Article Page Replica
 
-> This project is a clone of New York Times article page. 
+> This project is a clone of New York Times article page. It makes use of float, flex and grid CSS display positioning styles. This was completed as part of the Microverse remote software developement curriculum using the pair programming approach. Additionally a basic JavaScript method used to make navbar dynamic depends on the scroll action. Content of the webpage is copied from [that](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) original page.
 
 ![screenshot](./Assets/images/readme.gif)
-
-It makes use of float, flex and grid CSS display positioning styles. This was completed as part of the Microverse remote software developement curriculum using the pair programming approach.
 
 ## Built With
 
@@ -14,7 +12,7 @@ It makes use of float, flex and grid CSS display positioning styles. This was co
 
 ## Live Demo
 
-[Live Demo Link](https://safaerden.github.io/The-New-York-Times/)
+[Live Demo Link](https://rawcdn.githack.com/SafaErden/The-New-York-Times/356b25aaf1c5320ba8ef782ebb8e8e7b9a565786/index.html)
 
 ### Prerequisites
 
@@ -41,12 +39,14 @@ It makes use of float, flex and grid CSS display positioning styles. This was co
 - Github: [@githubhandle](https://github.com/SafaErden)
 - Twitter: [@twitterhandle](https://twitter.com/safaerden)
 - Linkedin: [linkedin](https://www.linkedin.com/in/safaerden/)
+- Email: [linkedin](mailto:safaerden@gmail.com)
 
 👤 **Mworekwa Ezekiel**
 
 - Github: [@githubhandle](https://github.com/vanheaven-ui)
 - Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
 - Linkedin: [linkedin](https://www.linkedin.com/in/vanheaven/)
+- Email: [linkedin](mailto:ebtwino718@yahoo.com)
 
 ## 🤝 Contributing
 

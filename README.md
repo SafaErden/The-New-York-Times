@@ -39,13 +39,13 @@
 - Github: [@githubhandle](https://github.com/SafaErden)
 - Twitter: [@twitterhandle](https://twitter.com/safaerden)
 - Linkedin: [linkedin](https://www.linkedin.com/in/safaerden/)
-- Email: [linkedin](mailto:safaerden@gmail.com)
+- Email: [safa](mailto:safaerden@gmail.com)
 
 👤 **Mworekwa Ezekiel**
 
 - Github: [@githubhandle](https://github.com/vanheaven-ui)
 - Twitter: [@twitterhandle](https://twitter.com/MworekwaE)
-- Linkedin: [safa](https://www.linkedin.com/in/vanheaven/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/vanheaven/)
 - Email: [ezekiel](mailto:ebtwino718@yahoo.com)
 
 ## 🤝 Contributing
